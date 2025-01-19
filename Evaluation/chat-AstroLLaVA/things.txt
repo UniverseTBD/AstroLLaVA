@@ -1,0 +1,16 @@
+Types of prompts - 
+    1. Simple text
+    2. Text + Image
+    3. Only Image
+
+Commands (Using HF API) - 
+    1. Regenerate
+    2. Clear
+
+Commands (On our database) -
+    1. Upvote
+    2. Downvote
+    3. Save any emoji response
+    4. Save the comments on the slack post as "User Reviews"
+    5. Allow users to FLAG
+    

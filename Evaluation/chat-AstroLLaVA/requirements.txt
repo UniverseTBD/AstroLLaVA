@@ -1,1 +1,5 @@
-gradio_client
+llava
+transformers
+peft
+torch
+protobuf
