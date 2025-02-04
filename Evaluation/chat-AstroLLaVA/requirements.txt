@@ -1,5 +1,0 @@
-llava
-transformers
-peft
-torch
-protobuf
