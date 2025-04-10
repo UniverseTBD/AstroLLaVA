@@ -4,7 +4,7 @@ AstroLLaVA is a vision language model for astronomy that enables interaction wit
 
 ## Quickstart instructions
 
-- Check out the HF repo and space to try out the model (TODO LINK)
+- To quickly test out repository we are currently in the process of setting up a demo on [Hugging Face Spaces](https://huggingface.co/spaces/universeTBD/AstroLLaVA) (fails currently).
 
 ## Dataset
 
@@ -24,7 +24,7 @@ git clone https://github.com/universeTBD/AstroLLaVA
 cd AstroLLaVA
 
 # Install dependencies
-pip install -r requirements.txt
+pip install -e .
 ```
 
 ## Usage
@@ -45,7 +45,19 @@ print(response)
 
 ## How to finetune your own `*LLaVA`
 
-TODO
+To finetune your own `*LLaVA` model, follow these steps:
+
+1. **Prepare your dataset**: Ensure your dataset is in the correct format (image-caption pairs). We use the exact same format as the baseline LLaVA.
+
+2. **Install dependencies**: Make sure you have all the required libraries installed. And make sure to install the additional dependencies for training, such as flash-attention.
+
+```bash
+pip install -e ".[train]"
+```
+3. **Set up the training script**: We use the scripts similar to the ones in the LLaVA repository. You can find them in the `scripts` directory.
+
+4. **Run the pre-training and training script.**
+
 
 ## Model Architecture
 
