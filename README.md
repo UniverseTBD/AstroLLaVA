@@ -1,6 +1,6 @@
 # AstroLLaVA 🚀 🌋 🦙
 
-AstroLLaVA is a visual language model for astronomy that enables interaction with astronomical imagery through natural dialogue. Built on the LLaVA architecture, it has been fine-tuned on a dataset of ~30k astronomical images with captions and question-answer pairs.
+AstroLLaVA is a vision language model for astronomy that enables interaction with astronomical imagery through natural dialogue. Built on the LLaVA architecture, it has been fine-tuned on a dataset of ~30k astronomical images with captions and question-answer pairs.
 
 ## Quickstart instructions
 
@@ -62,7 +62,7 @@ The model is trained in two stages:
 
 - [Training Dataset](https://doi.org/10.57967/hf/4236)
 - [Model Weights](https://hf.co/universeTBD/AstroLLaVA)
-- [Discord Community](https://discord.gg/rwNEjfhT)
+- [Discord Community](https://discord.gg/PUR2FbFRZ4)
 
 ## Environmental Impact
 
